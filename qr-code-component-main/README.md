@@ -2,14 +2,13 @@
 
 This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-I built this project to practise my HTML and CSS skills and learn how to create a clean, responsive user interface.
+I built this project to practise HTML and CSS and to learn how to create and deploy a responsive component.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Screenshot](#screenshot)
 - [Links](#links)
-- [My Process](#my-process)
 - [Built With](#built-with)
 - [What I Learned](#what-i-learned)
 - [Continued Development](#continued-development)
@@ -19,79 +18,69 @@ I built this project to practise my HTML and CSS skills and learn how to create 
 
 ## Overview
 
-The goal of this challenge was to build a QR code component that looks as close as possible to the provided design.
+The goal of this challenge was to recreate the QR code card from the Frontend Mentor design using HTML and CSS.
 
 ### Screenshot
 
-![QR Code Component Screenshot](./screenshot.jpg)
+Take a screenshot of your finished website, save it in this folder as `screenshot.jpg`, and then uncomment the image line below:
 
-> Add a screenshot of your finished project to the root folder and name it `screenshot.jpg`. If your screenshot has a different filename or extension, update the path above.
+<!-- ![QR code component screenshot](./screenshot.jpg) -->
 
 ### Links
 
-- **Solution URL:** Add your GitHub repository URL here.
-- **Live Site URL:** Add your deployed website URL here.
-
-## My Process
-
-I started by creating the HTML structure and then used CSS to style the component. I worked on the card layout, QR code image, typography, colors, spacing, and alignment.
-
-I also practised using Flexbox and media queries to understand how layouts behave across different screen sizes.
+- **Live Site:** [View the deployed QR code component](https://qr-code-component-main2113232323.netlify.app/)
+- **GitHub Repository:** [View the project source code](https://github.com/JLP-009/dev/tree/master/qr-code-component-main)
+- **Challenge:** [Frontend Mentor QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
 ## Built With
 
-- Semantic HTML5
+- HTML5
 - CSS3
 - Flexbox
-- CSS Media Queries
-- Google Fonts - Outfit
+- CSS media queries
+- Google Fonts — Outfit
 - Git and GitHub
+- Netlify for deployment
 
 ## What I Learned
 
-While working on this project, I practised:
+While building this project, I practised:
 
-- Structuring a webpage using HTML.
-- Connecting an external CSS stylesheet.
-- Using Google Fonts to customize typography.
-- Styling elements with CSS classes.
-- Understanding the CSS box model, including margin, padding, and borders.
-- Using Flexbox to align and center elements.
-- Working with widths, heights, and border radius.
-- Using media queries to adjust layouts for different screen sizes.
-- Using Git and GitHub to manage and share my code.
+- Creating a page structure with HTML.
+- Linking an external CSS stylesheet and loading a Google Font.
+- Using CSS selectors to style elements.
+- Working with the CSS box model, including margin, padding, and borders.
+- Using Flexbox to align and center the card.
+- Styling images, text, colors, and rounded corners.
+- Using a media query to adjust the layout for smaller screens.
+- Committing code with Git and publishing a static website with Netlify.
 
-One of my main takeaways was understanding the difference between styling a container and aligning the container's children. This helped me understand how Flexbox works.
+One important lesson was that Flexbox aligns the children of the element on which `display: flex` is applied. To position the card on the page, the parent element needs to control the alignment.
 
 ## Continued Development
 
-I want to continue improving my frontend development skills by focusing on:
+I plan to continue improving my frontend skills by:
 
+- Testing responsive layouts at different viewport widths, including small mobile screens.
+- Practising flexible CSS units such as `%`, `rem`, and `vh`.
 - Writing cleaner and more maintainable CSS.
-- Understanding responsive design and relative CSS units.
-- Improving my knowledge of Flexbox and CSS Grid.
-- Building more projects without relying on step-by-step instructions.
-- Learning how to structure larger webpages and reusable UI components.
+- Building more projects independently to gain confidence with HTML and CSS.
+- Learning more about Flexbox and CSS Grid.
 
 ## Useful Resources
 
-- [Frontend Mentor](https://www.frontendmentor.io/) - A platform for practising frontend development through projects.
-- [MDN Web Docs](https://developer.mozilla.org/) - Documentation and learning resources for HTML and CSS.
-- [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A visual guide to understanding Flexbox.
-- [Google Fonts - Outfit](https://fonts.google.com/specimen/Outfit) - The font family used in this project.
-- [GitHub Docs](https://docs.github.com/) - Documentation for learning GitHub workflows.
+- [Frontend Mentor](https://www.frontendmentor.io/) — practice frontend development with hands-on challenges.
+- [MDN Web Docs](https://developer.mozilla.org/) — reference and guides for HTML and CSS.
+- [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) — a visual guide to Flexbox.
+- [Google Fonts — Outfit](https://fonts.google.com/specimen/Outfit) — the typeface used in this project.
+- [GitHub Docs](https://docs.github.com/) — documentation for GitHub.
+- [Netlify Docs](https://docs.netlify.com/) — documentation for deploying websites.
 
 ## AI Collaboration
 
-I used ChatGPT as a learning assistant during this project.
-
-It helped me understand CSS properties, troubleshoot layout and preview issues, learn about Flexbox and media queries, and explore ways to make the component responsive.
-
-I used these explanations to improve my understanding while implementing and testing the project myself.
+I used ChatGPT as a learning assistant while working on this challenge. It helped me understand CSS properties, troubleshoot preview problems, and learn about Flexbox and media queries. I used the explanations to guide my own implementation and test changes in the project.
 
 ## Author
 
-- Frontend Mentor: [Add your Frontend Mentor username](https://www.frontendmentor.io/)
-- GitHub: [Add your GitHub profile URL](https://github.com/)
-
-            
+- GitHub: [@JLP-009](https://github.com/JLP-009)
+- Frontend Mentor: [Frontend Mentor](https://www.frontendmentor.io/)
