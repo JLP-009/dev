@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 2rem;
+}
+article{
+    display: flex;
+    overflow : hidden;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    width: 600px;
+    max-width: 100%;
+}
+
+
+.product-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.product-image,
+.product-info {
+    flex: 0 0 50%;
+    min-width: 0;
+}
+
+.product-info {
+    padding: 1.5rem;
+}
+
+
+.product-info p:first-child {
+    font-size: 0.75rem;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.25rem;
+}
+.product-info h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(212, 21%, 14%);
+}
+.product-info h1 + p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+}
+.product-price span{
+    color : hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-size :2rem;
+    font-weight: 700;
+}
+.product-price p{
+    font-family: "Montserrat", sans-serif;
+    font-size : 0.875rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.product-price{
+    display: flex;
+    align-items: center;
+    gap : 1rem;
+}
+.product-info button{
+    width : 100%;
+    background-color : hsl(158, 36%, 37%);
+    color : white;
+    border :none;
+    border-radius: 0.5rem;
+    padding : 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight : 700;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+@media (max-width: 600px) {
+    body {
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    article {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product-image img {
+        width: 100%;
+        height: auto;
+    }
+}
