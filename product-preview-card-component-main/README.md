@@ -26,9 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Product Preview Card Component Screenshot](./screenshot.jpg)
+![Product Preview Card Component Screenshot](./screenshot.png)
 
 > Add your project screenshot to the root folder and name it `screenshot.jpg`. If your screenshot has a different filename, update the image path above.
+
+### Links
+- **Live Site URL:**[ Add your deployed project link here.](https://product-preview-card1234.netlify.app/)
+
 ## My Process
 
 ### Built With
