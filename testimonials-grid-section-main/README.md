@@ -34,8 +34,7 @@ Users should be able to:
 
 ### Live Demo
 
-- **Live Site:** Add your deployed project URL here.
-- **Solution Repository:** Add your GitHub repository URL here.
+- **Live Site:**[Live](https://tesitmonials.netlify.app/)
 
 ## My Process
 
@@ -145,8 +144,4 @@ Working through these issues helped me understand how CSS properties interact an
 - Continue practicing CSS Grid, Flexbox, and pseudo-elements.
 - Build more Frontend Mentor projects to improve my frontend development skills.
 
-## Author
-
-- **Frontend Mentor:** [Add your Frontend Mentor profile](https://www.frontendmentor.io/)
-- **GitHub:** [Add your GitHub profile](https://github.com/)
 
