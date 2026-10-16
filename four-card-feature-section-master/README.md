@@ -28,9 +28,6 @@ Users should be able to:
 ### Screenshot
 
 ![Four Card Feature Section Screenshot](./screenshot.jpg)
-
-> Add a screenshot of your completed project to the root folder and name it `screenshot.jpg`. Update the image path above if your screenshot has a different filename.
-
 ### Links
 
 - **Live Site URL:**[text](https://four-card-feature-section-master1234.netlify.app/)
